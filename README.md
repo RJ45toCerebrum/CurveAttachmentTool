@@ -6,11 +6,11 @@ CONFIGURATION PROPERTIES
 
 
 General---Target Extension:
-	.mll
+.mll
 
 
 General---Configuration Type:
-	Dynamic Library .dll
+Dynamic Library .dll
 
 
 C++ Properties:

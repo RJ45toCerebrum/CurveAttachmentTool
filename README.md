@@ -1,11 +1,13 @@
 # CurveAttachmentTool
 	This Tool is used to attach a set of transforms to the closest point on a mesh and keep its
 	relative orientation to mesh face for natural looking transform movement while the mesh deforms.
-	This Plugin can do thousands fairly efficiently...
+	Note that this is 3 seperate visual studio project because each plugin can be used in its own in
+	different contexts.
 
 
 # Installation Instructions
 
+## Note that these instruction apply to ALL of the visual studio projects
 
 Go into the CONFIGURATION PROPERTIES of the Visual Studio Project
 and make sure you have these settings with correct path to your

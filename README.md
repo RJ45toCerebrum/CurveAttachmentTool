@@ -1,16 +1,22 @@
 # CurveAttachmentTool
 
+
 # Installation Instructions
 
-CONFIGURATION PROPERTIES
+
+Go into the CONFIGURATION PROPERTIES of the Visual Studio Project
+and make sure you have these settings with correct path to your
+Autodesk maya installation:
 
 
-General---Target Extension:
-.mll
+General:
+
+	Target Extension:
+		.mll
 
 
-General---Configuration Type:
-Dynamic Library .dll
+	Configuration Type:
+		Dynamic Library .dll
 
 
 C++ Properties:

@@ -7,7 +7,7 @@
 
 # Installation Instructions
 
-###Note that these instruction apply to ALL of the visual studio projects
+### Note that these instruction apply to ALL of the visual studio projects
 
 Go into the CONFIGURATION PROPERTIES of the Visual Studio Project
 and make sure you have these settings with correct path to your

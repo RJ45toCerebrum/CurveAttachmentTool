@@ -21,23 +21,23 @@ General:
 
 C++ Properties:
 
-	Include Directories (Replace: Maya2017, with your version of Maya):
+	Include Directories (NOTE: replace Maya2017 with your version of Maya):
 		C:\Program Files\Autodesk\Maya2017\include
 
-	Preprocessor:
-		WIN32;NDEBUG;_WINDOWS;NT_PLUGIN;REQUIRE_IOSTREAM;
+	Preprocessor (NOTE: Paste this at END of the Preprocessor string):
+		;WIN32;NDEBUG;_WINDOWS;NT_PLUGIN;REQUIRE_IOSTREAM
 
-	(if it is a release build use these preprocessor defintions instead): WIN32;NT_PLUGIN;REQUIRE_IOSTREAM;
+		NOTE, if it is a release build use these preprocessor defintions instead: 
+			WIN32;NT_PLUGIN;REQUIRE_IOSTREAM;
 
-	C/C++---Runtime Library---Code Generation:
+	Code Generation --> Runtime Library:
 		Multi-threaded Debug DLL /MDd
 
 
 
 Linker Properties:
 
-
-	Library Directories:
+	Library Directories (NOTE: replace Maya2017 with your version of maya):
 		C:\Program Files\Autodesk\Maya2017\lib
 
 

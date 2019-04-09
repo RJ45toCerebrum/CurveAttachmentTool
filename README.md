@@ -5,6 +5,20 @@
 	different contexts.
 
 
+# How to use
+	First, load each of the plugins with maya plugin manager:
+	(Ex.  ...\CurveAttachmentTool\BaryToMeshPoint\x64\Release    and 
+	      ...\CurveAttachmentTool\ClosestPointOnMesh\x64\Release and 
+	      ...\CurveAttachmentTool\FaceOrientation\x64\Release\FaceOrientation.mll)
+
+	
+	In order to use these plugins most easily, go into the python folder and open the
+	transform_to_mesh_util module in maya script editor. The function: attachTransformsToMesh
+	is what you need to call in order to setup the node graph that uses the plugins. 
+	The documentation in the script shows the required parameters.
+
+### Note that the script assumes you are using pymel for transform and transform lists
+
 # Installation Instructions
 
 ### Note that these instruction apply to ALL of the visual studio projects

@@ -1,6 +1,7 @@
 # CurveAttachmentTool
-	This Tool is used to attach transforms to the closest poitn on mesh and keep its relative orientation to mesh
-	face for natural looking transform movement while the mesh deforms...
+	This Tool is used to attach a set of transforms to the closest point on a mesh and keep its
+	relative orientation to mesh face for natural looking transform movement while the mesh deforms.
+	This Plugin can do thousands fairly efficiently...
 
 
 # Installation Instructions
